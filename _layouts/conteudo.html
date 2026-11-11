@@ -11,6 +11,13 @@ layout: default
         <li><a href="{{ d.url | relative_url }}"{% if d.url == page.url %} aria-current="page"{% endif %}>{{ d.title }}</a></li>
         {% endfor %}
       </ul>
+      <p class="lateral-titulo lateral-outras">Veja também</p>
+      <ul class="lateral-lista-outras">
+        {% for s in site.data.secoes %}{% if s.chave != page.collection %}
+        <li><a href="{{ s.url | relative_url }}">{{ s.titulo }}</a></li>
+        {% endif %}{% endfor %}
+        <li><a href="{{ '/orientacoes/' | relative_url }}">Todas as orientações</a></li>
+      </ul>
     </nav>
   </aside>
   <article class="pagina">

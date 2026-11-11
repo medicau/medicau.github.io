@@ -1,0 +1,3 @@
+# Collections com página de índice, usadas na navegação lateral (chave = nome da collection).
+- {chave: anestesia, titulo: Anestesia, url: /anestesia/}
+- {chave: guias, titulo: Preparo, url: /preparo/}

@@ -75,3 +75,4 @@ footer strong{color:var(--ink)}
   .lateral{position:sticky;top:16px;align-self:start;padding-top:40px}
   .com-lateral .eyebrow{display:none}
 }
+.lateral-outras{margin-top:20px;font-size:14px;color:var(--muted);font-weight:600}
