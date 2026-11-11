@@ -17,4 +17,5 @@ CSS legível para depurar (o padrão sai minificado): `bundle exec jekyll serve 
 - `base/`: `variables` (breakpoints, medidas, paletas clara e escura), `tokens` (temas como variáveis CSS), `mixins`, `reset`, `typography`.
 - `layout/`: `page`, `header`, `footer`.
 - `components/`: `buttons`, `cards`, `details`, `tags`, `theme-toggle`, `sidebar`.
+- Estilo de escrita: uma declaração por linha, indentação de 2 espaços, seletores de uma lista em linhas separadas, comentário curto no topo de cada arquivo e de cada bloco não óbvio. O CSS publicado continua minificado.
 - Para mudar uma cor, edite as paletas em `base/_variables.scss`; um componente novo vira um arquivo em `components/` e uma linha no `main.scss`.

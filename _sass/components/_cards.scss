@@ -1,6 +1,28 @@
+// Cartão de conteúdo; quando tem link, o título muda de cor ao passar o mouse.
 .card {
-  background: var(--card); border: 1px solid var(--line); border-radius: $raio-card; padding: 20px;
-  h3 { margin: .1em 0 .4em; font-size: 18px; }
-  p { margin: 0; color: var(--muted); font-size: 16px; }
-  a { text-decoration: none; color: inherit; display: block; &:hover h3 { color: var(--accent); } }
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: $raio-card;
+  padding: 20px;
+
+  h3 {
+    margin: .1em 0 .4em;
+    font-size: 18px;
+  }
+
+  p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 16px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+
+    &:hover h3 {
+      color: var(--accent);
+    }
+  }
 }

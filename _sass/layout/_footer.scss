@@ -1,6 +1,23 @@
+// Rodapé: links, identificação da médica e aviso legal.
 footer {
-  flex-shrink: 0; border-top: 1px solid var(--line);
-  padding: 28px 0 48px; color: var(--muted); font-size: 15px;
-  strong { color: var(--ink); }
+  flex-shrink: 0;
+  border-top: 1px solid var(--line);
+  padding: 28px 0 48px;
+  color: var(--muted);
+  font-size: 15px;
+
+  strong {
+    color: var(--ink);
+  }
 }
-.rodape-links { display: flex; flex-wrap: wrap; gap: 4px 20px; margin-bottom: 16px; a { padding: 6px 0; } }
+
+.rodape-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  margin-bottom: 16px;
+
+  a {
+    padding: 6px 0;
+  }
+}

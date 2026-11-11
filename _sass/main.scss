@@ -1,6 +1,21 @@
 // Ordem importa (cascata): base, layout, componentes.
-@import "base/variables", "base/tokens", "base/mixins",
-        "base/reset", "base/typography";
-@import "layout/page", "layout/header", "layout/footer";
-@import "components/buttons", "components/cards", "components/details",
-        "components/tags", "components/theme-toggle", "components/sidebar";
+
+// Base
+@import "base/variables";
+@import "base/tokens";
+@import "base/mixins";
+@import "base/reset";
+@import "base/typography";
+
+// Layout
+@import "layout/page";
+@import "layout/header";
+@import "layout/footer";
+
+// Componentes
+@import "components/buttons";
+@import "components/cards";
+@import "components/details";
+@import "components/tags";
+@import "components/theme-toggle";
+@import "components/sidebar";
