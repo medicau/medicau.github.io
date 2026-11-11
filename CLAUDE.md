@@ -28,4 +28,5 @@ Site em **Jekyll** (HTML/CSS/JS puro nas páginas, sem JS de terceiros), compila
 ## Convenções do site
 - Português do Brasil, tom acolhedor e sóbrio, frases curtas, sem jargão. Mobile primeiro (16px de margem lateral), modo claro e escuro via variáveis CSS com botão de tema (sistema, claro, escuro), sem dependências externas. Texto voltado ao paciente não cita LGPD, fase nem termo técnico.
 - Chaves `noindex` e `prototipo` em `_config.yml` controlam o robots e o aviso de protótipo; só mudar no lançamento.
+- Navegação: menu principal em `_data/navegacao.yml` (até 5 itens); "Agendar" é o botão fixo no topo; Contato fica no rodapé. No celular o menu recolhe atrás do botão "Menu" e o nome vira "Dra. Cláudia" (`nome_curto`).
 - Acessibilidade: contraste, `lang="pt-BR"`, rótulos em formulários, foco visível.

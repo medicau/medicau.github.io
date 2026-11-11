@@ -1,7 +1,6 @@
+# Menu principal (conteúdo para o paciente). "Agendar" é o botão de destaque no topo; Contato fica no rodapé.
 - {titulo: Anestesia, url: /anestesia/}
 - {titulo: Preparo, url: /preparo/}
 - {titulo: Dúvidas, url: /duvidas/}
 - {titulo: Exames, url: /exames/}
 - {titulo: Sobre, url: /sobre/}
-- {titulo: Agendar, url: /agendar/}
-- {titulo: Contato, url: /contato/}

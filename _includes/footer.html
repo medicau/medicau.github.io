@@ -1,6 +1,12 @@
 {% assign m = site.data.medica %}
 <footer>
   <div class="wrap">
+    <nav class="rodape-links" aria-label="Rodapé">
+      <a href="{{ '/agendar/' | relative_url }}">Agendar</a>
+      <a href="{{ '/contato/' | relative_url }}">Contato</a>
+      <a href="{{ '/exames/' | relative_url }}">Exames</a>
+      <a href="{{ '/duvidas/' | relative_url }}">Dúvidas</a>
+    </nav>
     <strong>{{ m.nome }}</strong><br>
     {{ m.formacao }} · {{ m.crm }}<br>
     {{ m.cargo }} · {{ m.residencia }}
