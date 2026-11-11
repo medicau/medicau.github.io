@@ -8,6 +8,7 @@ contato:
   whatsapp: "[WhatsApp]"
   email: "[e-mail]"
   local: "[endereço]"
+  agenda: "[link de agendamento]"
 aviso_legal: As informações deste site têm caráter educativo e não substituem a consulta médica.
 # Redação definitiva (só depois da R3 e do RQE real, a partir de mar/2027):
 # "Anestesista formada pela Santa Casa de Santos, RQE [RQE] / SBA [título]"

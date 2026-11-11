@@ -1,7 +1,8 @@
 # Checklist
 
 ## Agora (protótipo)
-- [ ] Cláudia aprova ou ajusta as 5 decisões (`proposta.html`)
+- [x] Cláudia aprova as 5 decisões (`proposta.html`), sujeita a revisão (11/11/2026)
+- [ ] Definir o destino do "Agende sua consulta": WhatsApp ou ferramenta de agenda (e quais horários e locais)
 - [ ] Avisar a Cláudia de que o rodapé publicado é provisório (residente, sem RQE) e por quê
 - [ ] Ela responde: "o que o paciente mais pergunta antes da cirurgia?"
 - [ ] Conferir o CRM-CE (carteira ou site do CRM-CE) e decidir se entra

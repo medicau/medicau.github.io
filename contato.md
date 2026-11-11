@@ -8,4 +8,4 @@ E-mail: {{ site.data.medica.contato.email }}<br>
 Local de atendimento: {{ site.data.medica.contato.local }}</p>
 </div>
 
-Agenda online: em breve.
+Para marcar uma consulta, veja [Agende sua consulta]({{ '/agendar/' | relative_url }}).

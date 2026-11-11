@@ -10,12 +10,12 @@ Site da Dra. Cláudia para pacientes: entender a anestesia, preparar-se para o p
 - **Portal: o João constrói** (decisão de 11/11/2026, stack Laravel + Jetstream). Como é ele o responsável técnico por dado de saúde, o parecer jurídico (LGPD) passa a ser **pré-requisito** para escrever código com dado real; antes dele, só protótipo com dado fictício.
 - Duas fases: **1) institucional** (sem dado de paciente); **2) portal do paciente** para enviar exames (login), só depois de parecer jurídico (LGPD) e de decidir construir ou contratar.
 
-## Proposta enviada à Cláudia (aguardando aprovação, página `proposta.html`)
+## Proposta enviada à Cláudia (aprovada por ela em 11/11/2026, sujeita a revisão; página `proposta.html`)
 1. Público: pacientes primeiro; cirurgiões e clínicas depois, em página curta.
 2. Conteúdo: entender a anestesia, preparo (jejum, remédios, exames), dúvidas comuns, contato.
 3. Exames: ela manda link, o paciente envia PDF/foto antes da pré-anestésica, ela confere. Só exames, sem prontuário. Fase 1 usa WhatsApp; app na fase 2.
 4. Atuação: espaço "local de atendimento" a preencher (R4 em aberto).
-5. Contatos: WhatsApp e e-mail; agenda online depois.
+5. Contatos: WhatsApp e e-mail. **Ajuste dela (11/11/2026):** quer um lugar de "Agende sua consulta" já na fase 1; o protótipo tem a página `/agendar/` e o botão no topo. O destino real (WhatsApp ou ferramenta de agenda) está em aberto.
 Foto, mini-bio, domínio e cores só depois das cinco aprovadas.
 
 ## Ordem
