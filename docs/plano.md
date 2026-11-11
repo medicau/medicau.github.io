@@ -7,6 +7,7 @@ Site da Dra. Cláudia para pacientes: entender a anestesia, preparar-se para o p
 - **Lançamento definitivo só depois de concluir a especialização** (R3 termina em 28/02/2027). Até lá o site é protótipo, `noindex`.
 - **Currículo = uma linha só**, no rodapé, na redação dela (ver `CLAUDE.md`). O que importa é o conteúdo.
 - Layout é decidido depois do propósito.
+- **Portal: o João constrói** (decisão de 11/11/2026, stack Laravel + Jetstream). Como é ele o responsável técnico por dado de saúde, o parecer jurídico (LGPD) passa a ser **pré-requisito** para escrever código com dado real; antes dele, só protótipo com dado fictício.
 - Duas fases: **1) institucional** (sem dado de paciente); **2) portal do paciente** para enviar exames (login), só depois de parecer jurídico (LGPD) e de decidir construir ou contratar.
 
 ## Proposta enviada à Cláudia (aguardando aprovação, página `proposta.html`)

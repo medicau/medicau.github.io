@@ -13,7 +13,7 @@
 
 ## Fase 2 (portal de exames)
 - [ ] Parecer jurídico (LGPD, controlador, DPO, RIPD) (`medica-juridico`)
-- [ ] Decisão construir ou contratar (`medica-arquitetura`)
+- [x] Decisão construir ou contratar: o João constrói (ver `docs/plano.md`) (`medica-arquitetura`)
 - [ ] Hospedagem adequada a dado de saúde (não é o GitHub Pages)
 
 ## Lançamento definitivo (a partir de mar/2027)
