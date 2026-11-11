@@ -1,0 +1,33 @@
+title: Dra. Cláudia Cristina de Araújo
+tagline: Anestesiologia
+description: Informações claras sobre anestesia, preparo para o procedimento e contato com a Dra. Cláudia.
+lang: pt-BR
+url: https://medicau.github.io
+baseurl: ""
+# Protótipo: noindex em todas as páginas até o lançamento definitivo (ver CLAUDE.md).
+noindex: true
+prototipo: true
+
+collections:
+  guias:
+    output: true
+    permalink: /preparo/:name/
+
+defaults:
+  - scope: {path: ""}
+    values: {layout: page}
+  - scope: {path: "", type: guias}
+    values: {layout: guia}
+
+markdown: kramdown
+exclude:
+  - docs
+  - bin
+  - privado
+  - .claude
+  - .githooks
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

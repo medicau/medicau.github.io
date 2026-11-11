@@ -1,0 +1,21 @@
+# Perguntas de EXEMPLO. As respostas são marcadores até a médica escrever ou aprovar.
+- grupo: Antes
+  itens:
+    - p: Por que preciso de uma consulta antes da cirurgia?
+      r: "[A revisar pela médica] Explicar o objetivo da avaliação pré-anestésica."
+    - p: Posso tomar meus remédios de uso contínuo?
+      r: "[A revisar pela médica] Orientação geral e aviso para sempre confirmar com a equipe."
+    - p: Quanto tempo de jejum é preciso?
+      r: "[A revisar pela médica] Tempos de jejum, em linguagem simples."
+- grupo: Durante
+  itens:
+    - p: Vou sentir dor durante a cirurgia?
+      r: "[A revisar pela médica] Como a dor é controlada e monitorada."
+    - p: Quem fica comigo na sala?
+      r: "[A revisar pela médica] Papel do anestesiologista durante o procedimento."
+- grupo: Depois
+  itens:
+    - p: Como é o despertar?
+      r: "[A revisar pela médica] O que costuma acontecer na sala de recuperação."
+    - p: Quando posso voltar às minhas atividades?
+      r: "[A revisar pela médica] Cuidados nas primeiras horas e sinais de alerta."

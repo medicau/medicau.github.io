@@ -1,0 +1,13 @@
+# Dados de EXEMPLO e marcadores. Valores reais ficam fora do git (privado/).
+nome: Dra. Cláudia Cristina de Araújo
+cargo: Médica residente em Anestesiologia
+formacao: Médica formada pela Universidade Federal do Ceará
+residencia: Santa Casa de Santos (2024–2027)
+crm: "CRM/SP [CRM-SP]"
+contato:
+  whatsapp: "[WhatsApp]"
+  email: "[e-mail]"
+  local: "[endereço]"
+aviso_legal: As informações deste site têm caráter educativo e não substituem a consulta médica.
+# Redação definitiva (só depois da R3 e do RQE real, a partir de mar/2027):
+# "Anestesista formada pela Santa Casa de Santos, RQE [RQE] / SBA [título]"

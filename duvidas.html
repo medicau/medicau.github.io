@@ -1,0 +1,11 @@
+---
+title: Dúvidas frequentes
+permalink: /duvidas/
+lead: "[Exemplo] Perguntas comuns de quem vai passar por uma anestesia."
+---
+{% for g in site.data.faq %}
+<h2>{{ g.grupo }}</h2>
+{% for i in g.itens %}
+<details><summary>{{ i.p }}</summary><p>{{ i.r }}</p></details>
+{% endfor %}
+{% endfor %}

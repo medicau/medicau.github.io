@@ -1,0 +1,11 @@
+---
+title: Envie seus exames
+permalink: /exames/
+lead: "Antes da consulta pré-anestésica, você pode mandar seus exames para a Dra. Cláudia conferir."
+---
+<div class="grid">
+{% for p in site.data.exames %}
+  <div class="card"><span class="passo">Passo {{ p.n }}</span><h3>{{ p.titulo }}</h3><p>{{ p.texto }}</p></div>
+{% endfor %}
+</div>
+<p>Só exames, sem prontuário. Enquanto a área segura (fase 2, depois de parecer jurídico sobre a LGPD) não existe, o envio é combinado pelo WhatsApp: {{ site.data.medica.contato.whatsapp }}.</p>
