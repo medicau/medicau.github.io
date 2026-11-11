@@ -14,7 +14,10 @@ header.hero{padding-top:56px;padding-bottom:40px}
 .marca{font-weight:700;color:var(--ink);text-decoration:none;line-height:1.2}
 .nome-curto{display:none}
 .acoes{display:flex;align-items:center;gap:8px;flex-shrink:0}
-.btn-sm{margin:0;padding:8px 18px;font-size:15px}
+.btn.btn-sm{margin:0;padding:0 16px;height:40px;line-height:40px;font-size:14px}
+.link-topo{color:var(--muted);text-decoration:none;font-size:15px;padding:8px 6px;border-bottom:2px solid transparent}
+.link-topo:hover,.link-topo[aria-current]{color:var(--accent);border-bottom-color:var(--accent)}
+.so-menu-celular{display:none}
 .menu ul{display:flex;flex-wrap:wrap;gap:0 24px;list-style:none;margin:0;padding:0}
 .menu a{display:block;color:var(--muted);text-decoration:none;font-size:15px;padding:8px 0;border-bottom:2px solid transparent}
 .menu a:hover,.menu a[aria-current]{color:var(--accent);border-bottom-color:var(--accent)}
@@ -23,6 +26,8 @@ header.hero{padding-top:56px;padding-bottom:40px}
 @media (max-width:720px){
   .nome-longo{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
   .nome-curto{display:inline}
+  .link-topo{display:none}
+  .so-menu-celular{display:list-item}
   .js .menu-btn{display:inline-block}
   .js .menu{display:none;border-top:1px solid var(--line)}
   .js .menu.aberto{display:block}

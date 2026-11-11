@@ -1,6 +1,6 @@
-# Menu principal (conteúdo para o paciente). "Agendar" é o botão de destaque no topo; Contato fica no rodapé.
+# Menu principal. Itens com topo: true aparecem também na linha de cima (só no computador); "Consultas" é o botão de destaque; Contato fica no rodapé.
 - {titulo: Anestesia, url: /anestesia/}
 - {titulo: Preparo, url: /preparo/}
 - {titulo: Dúvidas, url: /duvidas/}
-- {titulo: Exames, url: /exames/}
+- {titulo: Exames, url: /exames/, topo: true}
 - {titulo: Sobre, url: /sobre/}
