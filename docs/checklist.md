@@ -10,7 +10,6 @@
 - [ ] Avisar a Cláudia de que o rodapé publicado é provisório (residente, sem RQE) e por quê
 - [ ] Ela responde: "o que o paciente mais pergunta antes da cirurgia?"
 - [ ] Conferir o CRM-CE (carteira ou site do CRM-CE) e decidir se entra
-- [ ] Decidir o destino do protótipo antigo (`johnylab/site-medica`) depois que este estiver no ar
 
 ## Antes de escrever conteúdo clínico
 - [ ] Conferir a resolução CFM vigente (tarefa `medica-cfm`)

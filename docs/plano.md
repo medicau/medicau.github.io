@@ -27,4 +27,4 @@ Foto, mini-bio, domínio e cores só depois das cinco aprovadas (liberados em 11
 4. Depois: portal com exames e consultas (MVP: cadastro, envio de exames, agendamento, consentimento, trilha de auditoria).
 
 ## Hospedagem
-Este repositório em `medicau.github.io`. O protótipo anterior (`johnylab/site-medica`, `johnylab.com.br/site-medica/`) foi o link enviado à Cláudia; manter até o novo estar no ar e depois desativar.
+Este repositório em `medicau.github.io`.
