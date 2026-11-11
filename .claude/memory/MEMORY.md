@@ -1,0 +1,3 @@
+- [Repositório público: sem dado pessoal](repo-publico-sem-dado-pessoal.md) — marcadores no lugar de CRM/RQE; valores fora do git
+- [Lançamento só após a R3](lancamento-apos-r3.md) — 28/02/2027; até lá protótipo noindex e rodapé de residente
+- [Como a Cláudia prefere ser consultada](como-consultar-a-claudia.md) — uma pergunta por vez, resposta sugerida; ela não quer currículo no centro

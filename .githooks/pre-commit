@@ -1,0 +1,12 @@
+#!/bin/sh
+# Bloqueia dado pessoal em repositório PÚBLICO. Ative com: sh bin/setup.sh
+bad=0
+if git diff --cached --name-only | grep -q '^privado/'; then echo "pre-commit: 'privado/' não pode ir para o git"; bad=1; fi
+d=$(git diff --cached -U0 -- . ':!.githooks' ':!CLAUDE.md' ':!docs' ':!.claude' | grep '^+' | grep -v '^+++')
+chk() { echo "$d" | grep -Eiq "$1" && { echo "pre-commit: possível $2 no diff"; bad=1; }; }
+chk '[0-9]{3}\.?[0-9]{3}\.?[0-9]{3}-?[0-9]{2}' "CPF"
+chk 'CRM[ /-]*(SP|CE)?[ :nº°.-]*[0-9][0-9.]{3,}' "número de CRM (use [CRM-SP]/[CRM-CE])"
+chk '(\+?55)?[ (]*[0-9]{2}[) ]*9?[0-9]{4}-?[0-9]{4}' "telefone"
+chk 'XZzXX|HGSEH' "marcador falso de RQE/SBA"
+[ $bad -eq 1 ] && { echo "Mova o valor para privado/ (ignorado) e deixe o marcador."; exit 1; }
+exit 0
