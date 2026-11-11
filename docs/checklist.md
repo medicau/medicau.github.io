@@ -5,7 +5,8 @@
 - [ ] Mostrar o site Jekyll à Cláudia e colher a revisão dela
 - [ ] Foto, mini-bio, domínio e cores (liberados pela aprovação da proposta)
 - [ ] Logo definitivo (o atual é provisório: um "C" em quadrado arredondado) e conferir os textos do menu com a Cláudia
-- [ ] Definir o destino do "Agende sua consulta": WhatsApp ou ferramenta de agenda (e quais horários e locais)
+- [x] Destino do "Agende sua consulta": ferramenta própria, junto com os exames (decisão prévia de 11/11/2026; ver `docs/plano.md`)
+- [ ] Enquanto a ferramenta não existe: confirmar com a Cláudia o WhatsApp, os horários e os locais que as páginas `/agendar/` e `/exames/` vão mostrar
 - [ ] Avisar a Cláudia de que o rodapé publicado é provisório (residente, sem RQE) e por quê
 - [ ] Ela responde: "o que o paciente mais pergunta antes da cirurgia?"
 - [ ] Conferir o CRM-CE (carteira ou site do CRM-CE) e decidir se entra
@@ -16,7 +17,7 @@
 - [ ] Textos de jejum, exames e "no dia" escritos ou aprovados pela médica
 
 ## Fase 2 (portal de exames)
-- [ ] Parecer jurídico (LGPD, controlador, DPO, RIPD) (`medica-juridico`)
+- [ ] Parecer jurídico (LGPD, controlador, DPO, RIPD), incluindo os dados de agendamento (nome e contato) (`medica-juridico`)
 - [x] Decisão construir ou contratar: o João constrói (ver `docs/plano.md`) (`medica-arquitetura`)
 - [ ] Hospedagem adequada a dado de saúde (não é o GitHub Pages)
 
