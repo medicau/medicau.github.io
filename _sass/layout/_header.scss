@@ -1,0 +1,48 @@
+.topo { border-bottom: 1px solid var(--line); }
+.topo-linha {
+  display: flex; align-items: center; gap: 16px;
+  padding-top: 10px; padding-bottom: 10px; position: relative;
+}
+.marca {
+  display: flex; align-items: center; gap: 10px; margin-right: auto;
+  font-weight: 700; color: var(--ink); text-decoration: none; line-height: 1.2;
+}
+.logo { width: 36px; height: 36px; flex-shrink: 0; }
+.nome-curto { display: none; }
+.acoes { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+
+.menu {
+  ul { display: flex; gap: 4px 20px; list-style: none; margin: 0; padding: 0; }
+  a {
+    display: block; color: var(--muted); text-decoration: none; font-size: 15px;
+    padding: 8px 0; border-bottom: 2px solid transparent;
+    &:hover, &[aria-current] { color: var(--accent); border-bottom-color: var(--accent); }
+    &.destaque { color: var(--accent); font-weight: 700; }
+  }
+}
+.menu-btn {
+  display: none; background: transparent; border: 1px solid var(--line); color: var(--ink);
+  height: $altura-controle; padding: 0 14px; border-radius: $raio-pilula;
+  font: inherit; font-size: 15px; cursor: pointer;
+  &:hover { border-color: var(--accent); color: var(--accent); }
+}
+
+// Celular: o menu recolhe atrás do botão (só com JS; sem JS fica aberto).
+@include ate($bp-menu) {
+  .nome-longo { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .nome-curto { display: inline; }
+  .js .menu-btn { display: inline-block; }
+  .js .menu {
+    display: none; position: absolute; left: 0; right: 0; top: 100%; z-index: 10;
+    background: var(--bg); padding: 0 $margem;
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    &.aberto { display: block; }
+  }
+  .menu {
+    ul { flex-direction: column; gap: 0; }
+    a { padding: 12px 0; font-size: 16px; border-bottom: 1px solid var(--line); }
+    li:last-child a { border-bottom: 0; }
+    a[aria-current] { border-bottom-color: var(--line); font-weight: 700; }
+    a.destaque { font-weight: 700; }
+  }
+}

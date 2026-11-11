@@ -1,0 +1,10 @@
+// Rodapé sempre no fim da tela: body em coluna, main cresce.
+body { display: flex; flex-direction: column; min-height: 100vh; }
+main { flex: 1 0 auto; }
+
+.wrap { width: 100%; max-width: $largura-max; margin: 0 auto; padding: 0 $margem; }
+header.hero { padding-top: 56px; padding-bottom: 40px; }
+section { padding: 36px 0; border-top: 1px solid var(--line); }
+.pagina { padding: 40px 0 56px; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+.aviso { background: #fff3cd; color: #5c4400; font-size: 14px; text-align: center; padding: 8px $margem; }

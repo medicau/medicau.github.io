@@ -9,6 +9,9 @@ noindex: true
 # Faixa amarela de protótipo (_includes/aviso.html): removida a pedido do João em 11/11/2026; volte para true para exibir.
 prototipo: false
 
+# O gem github-pages injeta um tema padrão (primer) e publica um style.css de 76 KB que não usamos.
+theme: null
+
 collections:
   anestesia:
     output: true
@@ -26,6 +29,11 @@ defaults:
     values: {layout: conteudo, secao: Preparo, secao_url: /preparo/}
 
 markdown: kramdown
+
+# CSS: Sass (ver _sass/). O build do GitHub Pages já sai minificado.
+sass:
+  sass_dir: _sass
+  style: compressed
 exclude:
   - docs
   - bin

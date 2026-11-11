@@ -1,0 +1,20 @@
+// Pontos de quebra
+$bp-menu: 760px;     // abaixo disso o menu recolhe
+$bp-lateral: 800px;  // a partir daqui a lateral fica ao lado do texto
+
+// Medidas
+$largura-max: 860px;
+$margem: 16px;       // margem lateral mínima (mobile primeiro)
+$raio-card: 14px;
+$raio-pilula: 999px;
+$altura-controle: 40px; // botão de tema e botão Menu
+
+// Paletas: viram variáveis CSS (--bg, --ink...) em base/tokens.
+$cores-claro: (
+  bg: #faf8f5, ink: #1f2a2e, muted: #5d6b70, accent: #2f6f6a,
+  card: #fff, line: #e4ded6, on-accent: #fff
+);
+$cores-escuro: (
+  bg: #141a1c, ink: #eaf0ef, muted: #9fb0b3, accent: #6fc2ba,
+  card: #1c2528, line: #2b383b, on-accent: #0e1a19
+);

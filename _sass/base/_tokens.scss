@@ -1,0 +1,14 @@
+// Tema claro/escuro. Valores em base/variables. Contraste revisado (WCAG AA) nos dois temas.
+@mixin tokens($mapa) {
+  @each $nome, $valor in $mapa { --#{$nome}: #{$valor}; }
+}
+@mixin tema-escuro { @include tokens($cores-escuro); color-scheme: dark; }
+
+:root { @include tokens($cores-claro); }
+// Sem escolha manual: segue o sistema.
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include tema-escuro; }
+}
+// Escolha manual (botão de tema).
+:root[data-theme="dark"] { @include tema-escuro; }
+:root[data-theme="light"] { color-scheme: light; }
