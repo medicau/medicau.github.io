@@ -1,5 +1,6 @@
+{% assign docs = include.docs | sort: "ordem" %}
 <div class="grid">
-{% for c in include.itens %}
-  <div class="card"><h3>{{ c.titulo }}</h3><p>{{ c.resumo }}</p></div>
+{% for d in docs %}
+  <div class="card"><a href="{{ d.url | relative_url }}"><h3>{{ d.title }}</h3><p>{{ d.resumo }}</p></a></div>
 {% endfor %}
 </div>

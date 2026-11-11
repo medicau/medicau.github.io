@@ -3,8 +3,4 @@ title: Antes do procedimento
 permalink: /preparo/
 lead: "[A revisar pela médica] Orientações para chegar ao procedimento preparado, em linguagem simples."
 ---
-<div class="grid">
-{% for g in site.guias %}
-  <div class="card"><a href="{{ g.url | relative_url }}"><h3>{{ g.title }}</h3><p>{{ g.resumo }}</p></a></div>
-{% endfor %}
-</div>
+{% include cards.html docs=site.guias %}

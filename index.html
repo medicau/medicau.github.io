@@ -13,16 +13,12 @@ title: Início
 <main class="wrap">
   <section>
     <h2>Entenda a anestesia</h2>
-    {% include cards.html itens=site.data.anestesia %}
+    {% include cards.html docs=site.anestesia %}
   </section>
 
   <section>
     <h2>Antes do procedimento</h2>
-    <div class="grid">
-    {% for g in site.guias %}
-      <div class="card"><a href="{{ g.url | relative_url }}"><h3>{{ g.title }}</h3><p>{{ g.resumo }}</p></a></div>
-    {% endfor %}
-    </div>
+    {% include cards.html docs=site.guias %}
   </section>
 
   <section>

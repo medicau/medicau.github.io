@@ -1,6 +1,6 @@
 # Site da Dra. Cláudia (medicau.github.io): instruções para o Claude Code
 
-Site em **Jekyll** (HTML/CSS/JS puro nas páginas, sem JS de terceiros), compilado pelo GitHub Pages a partir de `main`. Conteúdo em `_data/`, `_guias/` e páginas da raiz; layouts em `_layouts/` e `_includes/`. Local: `bundle install` e `bundle exec jekyll serve --livereload` (não use `bundle update`). Quem decide é o João (marido da médica) com a Cláudia; ela aprova o conteúdo. O Claude prepara, o João publica.
+Site em **Jekyll** (HTML/CSS/JS puro nas páginas, sem JS de terceiros), compilado pelo GitHub Pages a partir de `main`. Conteúdo em `_data/` (dados), nas collections `_anestesia/` (tipos de anestesia) e `_guias/` (preparo; um arquivo `.md` por item, com `title`, `ordem` e `resumo`) e nas páginas da raiz; layouts em `_layouts/` e `_includes/`. Local: `bundle install` e `bundle exec jekyll serve --livereload` (não use `bundle update`). Quem decide é o João (marido da médica) com a Cláudia; ela aprova o conteúdo. O Claude prepara, o João publica.
 
 ## Regra nº 1: este repositório é PÚBLICO
 - **Nunca commitar dado pessoal:** número de CRM, RQE, CPF, RG, telefone, e-mail, endereço, filiação, documento. No lugar, marcadores: `[CRM-SP]`, `[CRM-CE]`, `[RQE]`, `[título]`, `[WhatsApp]`, `[e-mail]`, `[endereço]`. Os valores reais ficam fora do git (`privado/`, ignorado) ou na pasta local de documentos da Cláudia.
@@ -28,5 +28,5 @@ Site em **Jekyll** (HTML/CSS/JS puro nas páginas, sem JS de terceiros), compila
 ## Convenções do site
 - Português do Brasil, tom acolhedor e sóbrio, frases curtas, sem jargão. Mobile primeiro (16px de margem lateral), modo claro e escuro via variáveis CSS com botão de tema (sistema, claro, escuro), sem dependências externas. Texto voltado ao paciente não cita LGPD, fase nem termo técnico.
 - Chaves `noindex` e `prototipo` em `_config.yml` controlam o robots e a faixa amarela de protótipo. `prototipo` está `false` (João pediu para remover a faixa); `noindex` só muda no lançamento.
-- Navegação: uma linha só no topo (logo, nome, menu em `_data/navegacao.yml` e tema): Artigos, Dúvidas, Exames, Consultas (realçada), Sobre. Contato fica no rodapé. No celular o menu recolhe atrás do botão "Menu" e o nome vira "Dra. Cláudia" (`nome_curto`). Logo provisório em `_includes/logo.html` e `assets/img/logo.svg` (favicon).
+- Navegação: uma linha só no topo (logo, nome, menu em `_data/navegacao.yml` e tema): Orientações, Dúvidas, Exames, Consultas (realçada), Sobre. Contato fica no rodapé. No celular o menu recolhe atrás do botão "Menu" e o nome vira "Dra. Cláudia" (`nome_curto`). Logo provisório em `_includes/logo.html` e `assets/img/logo.svg` (favicon).
 - Acessibilidade: contraste, `lang="pt-BR"`, rótulos em formulários, foco visível.

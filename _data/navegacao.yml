@@ -1,6 +1,6 @@
 # Menu principal, na ordem exibida. "destaque: true" realça o item (Consultas).
 # Contato fica no rodapé e na página de consultas.
-- {titulo: Artigos, url: /artigos/}
+- {titulo: Orientações, url: /orientacoes/}
 - {titulo: Dúvidas, url: /duvidas/}
 - {titulo: Exames, url: /exames/}
 - {titulo: Consultas, url: /agendar/, destaque: true}

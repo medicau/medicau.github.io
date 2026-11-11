@@ -10,6 +10,9 @@ noindex: true
 prototipo: false
 
 collections:
+  anestesia:
+    output: true
+    permalink: /anestesia/:name/
   guias:
     output: true
     permalink: /preparo/:name/
@@ -17,8 +20,10 @@ collections:
 defaults:
   - scope: {path: ""}
     values: {layout: page}
+  - scope: {path: "", type: anestesia}
+    values: {layout: conteudo, secao: Anestesia, secao_url: /anestesia/}
   - scope: {path: "", type: guias}
-    values: {layout: guia}
+    values: {layout: conteudo, secao: Preparo, secao_url: /preparo/}
 
 markdown: kramdown
 exclude:
