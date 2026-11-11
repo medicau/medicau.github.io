@@ -16,7 +16,7 @@
 - [ ] Textos de jejum, exames e "no dia" escritos ou aprovados pela médica
 
 ## Fase 2 (portal de exames)
-- [ ] Parecer jurídico (LGPD, controlador, DPO, RIPD), incluindo os dados de agendamento (nome e contato) (`medica-juridico`)
+- [ ] Parecer jurídico (LGPD, controlador, DPO, RIPD), incluindo os dados de agendamento (nome e contato); o que é e o que perguntar: `docs/parecer-juridico.md` (`medica-juridico`)
 - [x] Decisão construir ou contratar: o João constrói (ver `docs/plano.md`) (`medica-arquitetura`)
 - [ ] Hospedagem adequada a dado de saúde (não é o GitHub Pages)
 

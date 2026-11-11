@@ -15,6 +15,8 @@ O que as fontes sustentam e o que ainda é lacuna (**[VERIFICAR]** = confirmar n
 - **Prontuário e telemedicina:** fontes secundárias dizem que sistemas de registro eletrônico de saúde seguem requisitos de segurança (NGS2, certificados ICP-Brasil, certificação SBIS/CFM) e que a telemedicina (Res. CFM 2.314/2022) exige plataforma segura e responsável técnico. **[VERIFICAR]** se um portal que só recebe exames enviados pelo paciente cai nessas exigências ou fica fora, e se ele integra o prontuário. Fonte: [Confidata, telemedicina e LGPD](https://confidata.com.br/blog/telemedicina-lgpd-guia-completo-plataformas).
 - **Técnico mínimo (boa prática, não norma):** cadastro com verificação de e-mail e autenticação forte (2FA); arquivos criptografados em repouso e em trânsito; armazenamento fora da pasta pública; controle de acesso por paciente; trilha de auditoria (quem viu o quê); retenção e exclusão definidas; backup cifrado; limite de tamanho e tipo de arquivo, varredura antivírus; termo de consentimento versionado; hospedagem com contrato adequado (a hospedagem compartilhada da KingHost provavelmente **não** é o lugar para isso).
 
+Sobre o parecer que responde aos itens **[VERIFICAR]** acima: `docs/parecer-juridico.md`.
+
 ## Construir ou contratar
 | Opção | Prós | Contras |
 |---|---|---|

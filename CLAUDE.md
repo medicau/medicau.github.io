@@ -15,7 +15,7 @@ Site em **Jekyll** (HTML/CSS/JS puro nas páginas, sem JS de terceiros), compila
 - Confirmar a resolução vigente na fonte (cfm.org.br) antes de escrever texto novo.
 
 ## Estado e rotina
-- **Plano:** `docs/plano.md` (fases, decisões, ordem). **Checklist de publicação:** `docs/checklist.md`. **Requisitos legais e do portal:** `docs/requisitos.md`. **Memórias do projeto:** `.claude/memory/MEMORY.md` (uma por arquivo, índice de uma linha).
+- **Plano:** `docs/plano.md` (fases, decisões, ordem). **Checklist de publicação:** `docs/checklist.md`. **Requisitos legais e do portal:** `docs/requisitos.md`. **Parecer jurídico (o que é e perguntas):** `docs/parecer-juridico.md`. **Memórias do projeto:** `.claude/memory/MEMORY.md` (uma por arquivo, índice de uma linha).
 - Ao iniciar, o hook SessionStart roda `bin/status.sh` (pendências do checklist, git sujo, último commit). Responda com o resumo em poucas linhas.
 - **Uma só fonte por fato:** decisão no `plano.md`, pendência no `checklist.md`, aprendizado duradouro em memória. Não copie entre eles; aponte.
 - **Tarefas do orquestrador do João** (`~/.claude`, ids `medica-*`) são a fila dele; ao concluir algo que muda uma delas, avise o João para atualizar (`tarefas.py done`), pois este repo é independente.
