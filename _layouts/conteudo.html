@@ -1,7 +1,18 @@
 ---
 layout: default
 ---
-<main class="wrap">
+{% assign irmaos = site[page.collection] | sort: "ordem" %}
+<main class="wrap com-lateral">
+  <aside class="lateral">
+    <nav aria-label="{{ page.secao }}">
+      <p class="lateral-titulo"><a href="{{ page.secao_url | relative_url }}">{{ page.secao }}</a></p>
+      <ul>
+        {% for d in irmaos %}
+        <li><a href="{{ d.url | relative_url }}"{% if d.url == page.url %} aria-current="page"{% endif %}>{{ d.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
   <article class="pagina">
     <p class="eyebrow"><a href="{{ page.secao_url | relative_url }}">← {{ page.secao }}</a></p>
     <h1>{{ page.title }}</h1>

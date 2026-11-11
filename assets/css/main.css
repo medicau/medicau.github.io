@@ -62,3 +62,16 @@ footer strong{color:var(--ink)}
 .tema[data-modo="system"] .i-sistema,.tema[data-modo="light"] .i-claro,.tema[data-modo="dark"] .i-escuro{display:block}
 .rodape-links{display:flex;flex-wrap:wrap;gap:4px 20px;margin-bottom:16px}
 .rodape-links a{padding:6px 0}
+.com-lateral{display:grid;gap:8px 40px;grid-template-columns:1fr}
+.lateral{padding-top:32px}
+.lateral-titulo{margin:0 0 8px;font-weight:700}
+.lateral-titulo a{color:var(--ink);text-decoration:none}
+.lateral ul{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+.lateral li a{display:block;padding:8px 14px;margin-left:-2px;border-left:2px solid transparent;color:var(--muted);text-decoration:none;font-size:15px}
+.lateral li a:hover{color:var(--accent)}
+.lateral li a[aria-current]{color:var(--accent);font-weight:700;border-left-color:var(--accent)}
+@media (min-width:800px){
+  .com-lateral{grid-template-columns:220px minmax(0,1fr)}
+  .lateral{position:sticky;top:16px;align-self:start;padding-top:40px}
+  .com-lateral .eyebrow{display:none}
+}
