@@ -6,7 +6,10 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:var(--accent)}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+.wrap{width:100%;max-width:860px;margin:0 auto;padding:0 16px}
+body{display:flex;flex-direction:column;min-height:100vh}
+main{flex:1 0 auto}
+footer{flex-shrink:0}
 .aviso{background:#fff3cd;color:#5c4400;font-size:14px;text-align:center;padding:8px 16px}
 header.hero{padding-top:56px;padding-bottom:40px}
 .topo{border-bottom:1px solid var(--line)}
@@ -63,7 +66,7 @@ footer strong{color:var(--ink)}
 .rodape-links{display:flex;flex-wrap:wrap;gap:4px 20px;margin-bottom:16px}
 .rodape-links a{padding:6px 0}
 .com-lateral{display:grid;gap:8px 40px;grid-template-columns:1fr}
-.lateral{padding-top:32px}
+.lateral{padding-top:32px;padding-bottom:40px}
 .lateral-titulo{margin:0 0 8px;font-weight:700}
 .lateral-titulo a{color:var(--ink);text-decoration:none}
 .lateral ul{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
