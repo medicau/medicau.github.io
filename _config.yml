@@ -6,7 +6,8 @@ url: https://medicau.github.io
 baseurl: ""
 # Protótipo: noindex em todas as páginas até o lançamento definitivo (ver CLAUDE.md).
 noindex: true
-prototipo: true
+# Faixa amarela de protótipo (_includes/aviso.html): removida a pedido do João em 11/11/2026; volte para true para exibir.
+prototipo: false
 
 collections:
   guias:

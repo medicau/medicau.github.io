@@ -27,4 +27,4 @@
 - [ ] Nenhuma promessa de resultado, superlativo ou prêmio
 - [ ] Revisão final pela médica (e, se possível, pelo CRM)
 - [ ] Política de privacidade se houver qualquer coleta de dados
-- [ ] Em `_config.yml`: `noindex: false` e `prototipo: false`; conferir mobile, modo claro/escuro e links
+- [ ] Em `_config.yml`: `noindex: false` (a faixa de protótipo já foi desligada); conferir mobile, modo claro/escuro e links
