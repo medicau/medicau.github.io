@@ -22,4 +22,4 @@ O que as fontes sustentam e o que ainda é lacuna (**[VERIFICAR]** = confirmar n
 | Contratar plataforma de portal/prontuário já adequada à LGPD e ao CFM | segurança e conformidade por contrato | mensalidade; menos personalização; avaliar fornecedores no Brasil |
 | Fluxo mínimo sem app (link seguro de envio de terceiros, e-mail cifrado) | rápido e barato | experiência pior; a conformidade continua a ser verificada |
 
-Decisão do João e da médica, depois de saber **quantos pacientes**, **que exames**, **se vira prontuário**, e do parecer jurídico.
+**Decidido em 11/11/2026: o João constrói (Laravel + Jetstream).** O parecer jurídico segue como pré-requisito para dado real. Itens ainda a levantar, para dimensionar o portal: **quantos pacientes**, **que exames**, **se vira prontuário** e o resultado do parecer jurídico.

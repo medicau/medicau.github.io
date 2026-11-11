@@ -1,7 +1,9 @@
 # Checklist
 
 ## Agora (protótipo)
-- [x] Cláudia aprova as 5 decisões (`proposta.html`), sujeita a revisão (11/11/2026)
+- [x] Cláudia aprova as 5 decisões da proposta, sujeita a revisão (11/11/2026; a página saiu do site e ficou no histórico do git)
+- [ ] Mostrar o site Jekyll à Cláudia e colher a revisão dela
+- [ ] Foto, mini-bio, domínio e cores (liberados pela aprovação da proposta)
 - [ ] Definir o destino do "Agende sua consulta": WhatsApp ou ferramenta de agenda (e quais horários e locais)
 - [ ] Avisar a Cláudia de que o rodapé publicado é provisório (residente, sem RQE) e por quê
 - [ ] Ela responde: "o que o paciente mais pergunta antes da cirurgia?"
@@ -24,4 +26,4 @@
 - [ ] Nenhuma promessa de resultado, superlativo ou prêmio
 - [ ] Revisão final pela médica (e, se possível, pelo CRM)
 - [ ] Política de privacidade se houver qualquer coleta de dados
-- [ ] Remover `noindex`; conferir mobile, modo escuro e links
+- [ ] Em `_config.yml`: `noindex: false` e `prototipo: false`; conferir mobile, modo claro/escuro e links

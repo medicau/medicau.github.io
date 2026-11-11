@@ -1,6 +1,6 @@
 # Site da Dra. Cláudia (medicau.github.io): instruções para o Claude Code
 
-Site estático (HTML/CSS/JS puro, sem build) servido pelo GitHub Pages a partir de `main`. Quem decide é o João (marido da médica) com a Cláudia; ela aprova o conteúdo. O Claude prepara, o João publica.
+Site em **Jekyll** (HTML/CSS/JS puro nas páginas, sem JS de terceiros), compilado pelo GitHub Pages a partir de `main`. Conteúdo em `_data/`, `_guias/` e páginas da raiz; layouts em `_layouts/` e `_includes/`. Local: `bundle install` e `bundle exec jekyll serve --livereload` (não use `bundle update`). Quem decide é o João (marido da médica) com a Cláudia; ela aprova o conteúdo. O Claude prepara, o João publica.
 
 ## Regra nº 1: este repositório é PÚBLICO
 - **Nunca commitar dado pessoal:** número de CRM, RQE, CPF, RG, telefone, e-mail, endereço, filiação, documento. No lugar, marcadores: `[CRM-SP]`, `[CRM-CE]`, `[RQE]`, `[título]`, `[WhatsApp]`, `[e-mail]`, `[endereço]`. Os valores reais ficam fora do git (`privado/`, ignorado) ou na pasta local de documentos da Cláudia.
@@ -23,8 +23,9 @@ Site estático (HTML/CSS/JS puro, sem build) servido pelo GitHub Pages a partir 
 ## Git e publicação
 - Commit automático do que o João pediu ou aprovou, mensagem descritiva, nunca `--force`.
 - **Push publica o site** (Pages, ~1 min). Faça push só com o OK do João para mudança visível; mudanças só em docs/memória podem ir direto. Após o push, confira com `curl -sI https://medicau.github.io/` (esperado 200).
-- Mantém `<meta name="robots" content="noindex">` em todas as páginas até o lançamento definitivo; remover só por decisão explícita do João e da Cláudia.
+- Mantém `noindex` (chave `noindex` do `_config.yml`, aplicada pelo layout em todas as páginas) até o lançamento definitivo; remover só por decisão explícita do João e da Cláudia.
 
 ## Convenções do site
-- Português do Brasil, tom acolhedor e sóbrio, frases curtas, sem jargão. Mobile primeiro (16px de margem lateral), modo claro e escuro via variáveis CSS, sem dependências externas.
+- Português do Brasil, tom acolhedor e sóbrio, frases curtas, sem jargão. Mobile primeiro (16px de margem lateral), modo claro e escuro via variáveis CSS com botão de tema (sistema, claro, escuro), sem dependências externas. Texto voltado ao paciente não cita LGPD, fase nem termo técnico.
+- Chaves `noindex` e `prototipo` em `_config.yml` controlam o robots e o aviso de protótipo; só mudar no lançamento.
 - Acessibilidade: contraste, `lang="pt-BR"`, rótulos em formulários, foco visível.

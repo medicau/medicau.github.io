@@ -8,4 +8,4 @@ permalink: /sobre/
 - {{ site.data.medica.residencia }}
 - {{ site.data.medica.crm }}
 
-[Texto de exemplo] Mini-bio a ser escrita pela Cláudia, depois de aprovadas as decisões da proposta.
+[Texto de exemplo] Mini-bio a ser escrita pela Cláudia, a partir do que ela quiser contar.
