@@ -10,30 +10,28 @@ a{color:var(--accent)}
 .aviso{background:#fff3cd;color:#5c4400;font-size:14px;text-align:center;padding:8px 16px}
 header.hero{padding-top:56px;padding-bottom:40px}
 .topo{border-bottom:1px solid var(--line)}
-.topo-linha{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:12px;padding-bottom:12px}
-.marca{font-weight:700;color:var(--ink);text-decoration:none;line-height:1.2}
+.topo-linha{display:flex;align-items:center;gap:16px;padding-top:10px;padding-bottom:10px;position:relative}
+.marca{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--ink);text-decoration:none;line-height:1.2;margin-right:auto}
+.logo{width:36px;height:36px;flex-shrink:0}
 .nome-curto{display:none}
 .acoes{display:flex;align-items:center;gap:8px;flex-shrink:0}
-.btn.btn-sm{margin:0;padding:0 16px;height:40px;line-height:40px;font-size:14px}
-.link-topo{color:var(--muted);text-decoration:none;font-size:15px;padding:8px 6px;border-bottom:2px solid transparent}
-.link-topo:hover,.link-topo[aria-current]{color:var(--accent);border-bottom-color:var(--accent)}
-.so-menu-celular{display:none}
-.menu ul{display:flex;flex-wrap:wrap;gap:0 24px;list-style:none;margin:0;padding:0}
+.menu ul{display:flex;gap:4px 20px;list-style:none;margin:0;padding:0}
 .menu a{display:block;color:var(--muted);text-decoration:none;font-size:15px;padding:8px 0;border-bottom:2px solid transparent}
 .menu a:hover,.menu a[aria-current]{color:var(--accent);border-bottom-color:var(--accent)}
+.menu a.destaque{color:var(--accent);font-weight:700}
 .menu-btn{display:none;background:transparent;border:1px solid var(--line);color:var(--ink);height:40px;padding:0 14px;border-radius:999px;font:inherit;font-size:15px;cursor:pointer}
 .menu-btn:hover{border-color:var(--accent);color:var(--accent)}
-@media (max-width:720px){
+@media (max-width:760px){
   .nome-longo{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
   .nome-curto{display:inline}
-  .link-topo{display:none}
-  .so-menu-celular{display:list-item}
   .js .menu-btn{display:inline-block}
-  .js .menu{display:none;border-top:1px solid var(--line)}
+  .js .menu{display:none;position:absolute;left:0;right:0;top:100%;background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:0 16px;z-index:10}
   .js .menu.aberto{display:block}
-  .menu ul{flex-direction:column}
+  .menu ul{flex-direction:column;gap:0}
   .menu a{padding:12px 0;font-size:16px;border-bottom:1px solid var(--line)}
+  .menu li:last-child a{border-bottom:0}
   .menu a[aria-current]{border-bottom-color:var(--line);font-weight:700}
+  .menu a.destaque{font-weight:700}
 }
 .eyebrow{color:var(--accent);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:13px;margin:0}
 .eyebrow a{text-decoration:none}

@@ -4,6 +4,7 @@
 - [x] Cláudia aprova as 5 decisões da proposta, sujeita a revisão (11/11/2026; a página saiu do site e ficou no histórico do git)
 - [ ] Mostrar o site Jekyll à Cláudia e colher a revisão dela
 - [ ] Foto, mini-bio, domínio e cores (liberados pela aprovação da proposta)
+- [ ] Logo definitivo (o atual é provisório: um "C" em quadrado arredondado) e conferir os textos do menu com a Cláudia
 - [ ] Definir o destino do "Agende sua consulta": WhatsApp ou ferramenta de agenda (e quais horários e locais)
 - [ ] Avisar a Cláudia de que o rodapé publicado é provisório (residente, sem RQE) e por quê
 - [ ] Ela responde: "o que o paciente mais pergunta antes da cirurgia?"

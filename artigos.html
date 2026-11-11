@@ -1,0 +1,15 @@
+---
+title: Artigos
+permalink: /artigos/
+lead: "Leituras curtas para entender a anestesia e se preparar para o procedimento."
+---
+<h2>Entenda a anestesia</h2>
+{% include cards.html itens=site.data.anestesia %}
+<p><a href="{{ '/anestesia/' | relative_url }}">Ver tudo sobre a anestesia</a></p>
+
+<h2 style="margin-top:32px">Antes do procedimento</h2>
+<div class="grid">
+{% for g in site.guias %}
+  <div class="card"><a href="{{ g.url | relative_url }}"><h3>{{ g.title }}</h3><p>{{ g.resumo }}</p></a></div>
+{% endfor %}
+</div>

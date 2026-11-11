@@ -1,6 +1,7 @@
-# Menu principal. Itens com topo: true aparecem também na linha de cima (só no computador); "Consultas" é o botão de destaque; Contato fica no rodapé.
-- {titulo: Anestesia, url: /anestesia/}
-- {titulo: Preparo, url: /preparo/}
+# Menu principal, na ordem exibida. "destaque: true" realça o item (Consultas).
+# Contato fica no rodapé e na página de consultas.
+- {titulo: Artigos, url: /artigos/}
 - {titulo: Dúvidas, url: /duvidas/}
-- {titulo: Exames, url: /exames/, topo: true}
+- {titulo: Exames, url: /exames/}
+- {titulo: Consultas, url: /agendar/, destaque: true}
 - {titulo: Sobre, url: /sobre/}
